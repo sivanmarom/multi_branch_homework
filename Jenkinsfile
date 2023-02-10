@@ -5,7 +5,7 @@ pipeline{
 			steps{
 				sh '''
 					if [ -f README.md ]; then echo README.md ; fi
-					echo "The name of this branch is : main branch"
+					echo "The name of this branch is : newbranch"
 '''
 				script{
 					def file_content = readFile(file: "README.md")
